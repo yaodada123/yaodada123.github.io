@@ -156,8 +156,8 @@ $$
 
 ## 布局
 
-<!-- ![Logo](/new-logo.png) -->
-![Logo](https://pcsdata.baidu.com/thumbnail/1c74a825ai694b9f6fb64df1cb53485b?fid=1099513442164-16051585-96682052082591&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-4p2Z20JVuN6yAjrbx43wpmoFTOs%3D&expires=2h&chkv=0&chkbd=0&chkpc=&dp-logid=576032081966666504&dp-callid=0&time=1678942800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video)
+![Logo](/new-logo.png)
+<!-- ![Logo](https://pcsdata.baidu.com/thumbnail/1c74a825ai694b9f6fb64df1cb53485b?fid=1099513442164-16051585-96682052082591&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-4p2Z20JVuN6yAjrbx43wpmoFTOs%3D&expires=2h&chkv=0&chkbd=0&chkpc=&dp-logid=576032081966666504&dp-callid=0&time=1678942800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video) -->
 
 <!-- .element: class="r-stretch" -->
 
