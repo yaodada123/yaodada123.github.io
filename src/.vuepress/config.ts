@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { hopeTheme } from "vuepress-theme-hope";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -17,7 +18,17 @@ export default defineUserConfig({
     // },
   },
 
+  // theme: hopeTheme({
+  //   // 默认为 GitHub. 同时也可以是一个完整的 URL
+  //   repo: "vuepress-theme-hope/vuepress-theme-hope",
+  //   // 自定义仓库链接文字。默认从 `repo` 中自动推断为
+  //   // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
+  //   repoLabel: "GitHub",
+  //   // 是否在导航栏内显示仓库链接，默认为 `true`
+  //   repoDisplay: true,
+  // }),
   theme,
+
 
   // Enable it with pwa
   // shouldPrefetch: false,
