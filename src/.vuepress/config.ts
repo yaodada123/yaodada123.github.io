@@ -1,6 +1,8 @@
 import { defineUserConfig } from "vuepress";
-import { hopeTheme } from "vuepress-theme-hope";
+import { hopeTheme, usePlugin } from "vuepress-theme-hope";
 import theme from "./theme.js";
+
+
 
 export default defineUserConfig({
   base: "/",
@@ -28,6 +30,7 @@ export default defineUserConfig({
   //   repoDisplay: true,
   // }),
   theme,
+  
 
 
   // Enable it with pwa

@@ -16,8 +16,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  favicon: 'https://pcsdata.baidu.com/thumbnail/2c4ed76ffq855e18e19423051265e600?fid=1099513442164-16051585-616237313056387&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-k5MvUIvqdCY51W5n4g8x%2FEzVhzo%3D&expires=2h&chkv=0&chkbd=0&chkpc=&dp-logid=575756523908547380&dp-callid=0&time=1678939200&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video',
-
+  favicon: 'https://pic.imgdb.cn/item/64151c29a682492fcca4b377.jpg',
   // logo: "https://pcsdata.baidu.com/thumbnail/1c74a825ai694b9f6fb64df1cb53485b?fid=1099513442164-16051585-96682052082591&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-4p2Z20JVuN6yAjrbx43wpmoFTOs%3D&expires=2h&chkv=0&chkbd=0&chkpc=&dp-logid=576032081966666504&dp-callid=0&time=1678942800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video",
   logo: "/new-logo.png",
 

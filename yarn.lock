@@ -4977,6 +4977,11 @@ vuepress-plugin-feed2@2.0.0-beta.193:
     vuepress-shared "2.0.0-beta.193"
     xml-js "^1.6.11"
 
+vuepress-plugin-live2d@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-live2d/-/vuepress-plugin-live2d-0.0.7.tgz#e09d415c018c3fad871c03151d6e5124e7c56946"
+  integrity sha512-uifUeJIyapP3ht73OQWjvi9WdkYWIZxcGazmomhrxgGPo2aB5Aqr8ZQATy1yVtVpBZOzlsBkm3TSOP06bGyjrA==
+
 vuepress-plugin-md-enhance@2.0.0-beta.193:
   version "2.0.0-beta.193"
   resolved "https://registry.npmmirror.com/vuepress-plugin-md-enhance/-/vuepress-plugin-md-enhance-2.0.0-beta.193.tgz#abb824be10bd7ea6305649422e83bd69a00383ae"
