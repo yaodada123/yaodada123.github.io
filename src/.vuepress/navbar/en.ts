@@ -17,6 +17,7 @@ export const enNavbar = navbar([
           { text: "苹果2", icon: "edit", link: "2" },
           "3",
           "4",
+          { text: "迫不及待", icon: "edit", link: "迫不及待" },
         ],
       },
       {
