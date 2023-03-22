@@ -114,6 +114,7 @@ export default hopeTheme({
     config: {
       "/demo/encrypt.html": ["1234"],
       "/zh/demo/encrypt.html": ["1234"],
+      "/posts/apple/迫不及待.html": ["1234"],
     },
   },
 
