@@ -11,6 +11,11 @@ bgImage: 'https://pic.imgdb.cn/item/641314fdebf10e5d53a636dd.jpg'
 heroText: 所谓独醉
 heroFullScreen: true
 tagline: Just beat it beat it beat it beat it
+pageview: true
+head:
+  - - meta
+    - name: keywords
+      content: '所谓独醉，摇一摇'
 # projects:
 #   - icon: project
 #     name: 项目名称

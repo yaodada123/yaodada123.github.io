@@ -1879,6 +1879,16 @@
     user-agent-data-types "^0.3.1"
     vue "^3.2.47"
 
+"@waline/client@^2.14.9":
+  version "2.14.9"
+  resolved "https://registry.npmmirror.com/@waline/client/-/client-2.14.9.tgz#48d0794fef22ff163b195dcf0c52090e64f95ed7"
+  integrity sha512-j156AgwKskRNtlBWeFj8niN4j6lwS4xg8BKo1A09p1j78rcGhNxf5S9gmzqW/8oDUbnSILOHtweydiRgWEqBag==
+  dependencies:
+    "@vueuse/core" "^9.13.0"
+    autosize "^6.0.1"
+    marked "^4.2.12"
+    vue "^3.2.47"
+
 abortcontroller-polyfill@^1.7.5:
   version "1.7.5"
   resolved "https://registry.npmmirror.com/abortcontroller-polyfill/-/abortcontroller-polyfill-1.7.5.tgz#6738495f4e901fbb57b6c0611d0c75f76c485bed"
@@ -1960,6 +1970,16 @@ artalk@^2.5.0:
   version "2.5.0"
   resolved "https://registry.npmmirror.com/artalk/-/artalk-2.5.0.tgz#d22889e4d4715ebbfc5da660b969b725da0dfcce"
   integrity sha512-4EFYM8LbVDapzoPdiTK5lJ3HT/FwEuT1i0jB3GEaoO4a40Ux6HJ+Tx33A+3OniMc/xiqf5TVwVWHfSk0NhZcAw==
+  dependencies:
+    abortcontroller-polyfill "^1.7.5"
+    hanabi "^0.4.0"
+    insane "^2.6.2"
+    marked "^4.2.12"
+
+artalk@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.npmmirror.com/artalk/-/artalk-2.5.2.tgz#416acfa433069978221e084d61f3bc39331ef553"
+  integrity sha512-qwAtSCRIBadaXyLsVps8DDlawis7KQNQpDfEj2h8xbA8LYv1nTUR4tazb4oVRBOwGSpo1cir8WIT3pq/MkiTLg==
   dependencies:
     abortcontroller-polyfill "^1.7.5"
     hanabi "^0.4.0"
@@ -2969,6 +2989,21 @@ execa@^7.0.0, execa@^7.1.0:
   version "7.1.0"
   resolved "https://registry.npmmirror.com/execa/-/execa-7.1.0.tgz#50c6f39438b7ce407e8c7a6829c72b074778238d"
   integrity sha512-T6nIJO3LHxUZ6ahVRaxXz9WLEruXLqdcluA+UuTptXmLM7nDAn9lx9IfkxPyzEL21583qSt4RmL44pO71EHaJQ==
+  dependencies:
+    cross-spawn "^7.0.3"
+    get-stream "^6.0.1"
+    human-signals "^4.3.0"
+    is-stream "^3.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^5.1.0"
+    onetime "^6.0.0"
+    signal-exit "^3.0.7"
+    strip-final-newline "^3.0.0"
+
+execa@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.npmmirror.com/execa/-/execa-7.1.1.tgz#3eb3c83d239488e7b409d48e8813b76bb55c9c43"
+  integrity sha512-wH0eMf/UXckdUYnO21+HDztteVv05rq2GXksxT4fCGeHkBhw1DROXh40wcjMcRqDOWE7iPJ4n3M7e2+YFP+76Q==
   dependencies:
     cross-spawn "^7.0.3"
     get-stream "^6.0.1"
@@ -4400,6 +4435,15 @@ sass@^1.58.3, sass@^1.59.2:
     immutable "^4.0.0"
     source-map-js ">=0.6.2 <2.0.0"
 
+sass@^1.59.3:
+  version "1.59.3"
+  resolved "https://registry.npmmirror.com/sass/-/sass-1.59.3.tgz#a1ddf855d75c70c26b4555df4403e1bbf8e4403f"
+  integrity sha512-QCq98N3hX1jfTCoUAsF3eyGuXLsY7BCnCEg9qAact94Yc21npG2/mVOqoDvE0fCbWDqiM4WlcJQla0gWG2YlxQ==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
+
 sax@1.2.1:
   version "1.2.1"
   resolved "https://registry.npmmirror.com/sax/-/sax-1.2.1.tgz#7b8e656190b228e81a66aea748480d828cd2d37a"
@@ -4915,6 +4959,23 @@ vuepress-plugin-comment2@2.0.0-beta.193:
     vuepress-plugin-sass-palette "2.0.0-beta.193"
     vuepress-shared "2.0.0-beta.193"
 
+vuepress-plugin-comment2@^2.0.0-beta.197:
+  version "2.0.0-beta.197"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-comment2/-/vuepress-plugin-comment2-2.0.0-beta.197.tgz#ef0d459902c74f26696332aa61b16b74a2f90b48"
+  integrity sha512-AXvAmvRNdBEVsx105ykjB5EvNj0vIb4ny7RgM2BM0mXcWImxdKWaO8GGdzIu5Eqk/Aiv7FXJoBIJ6uhkxIfPuQ==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.61"
+    "@vuepress/shared" "2.0.0-beta.61"
+    "@vuepress/utils" "2.0.0-beta.61"
+    "@waline/client" "^2.14.9"
+    artalk "^2.5.2"
+    giscus "^1.2.8"
+    twikoo "^1.6.10"
+    vue "^3.2.47"
+    vue-router "^4.1.6"
+    vuepress-plugin-sass-palette "2.0.0-beta.197"
+    vuepress-shared "2.0.0-beta.197"
+
 vuepress-plugin-components@2.0.0-beta.193:
   version "2.0.0-beta.193"
   resolved "https://registry.npmmirror.com/vuepress-plugin-components/-/vuepress-plugin-components-2.0.0-beta.193.tgz#caa3670516aa43956be25756e61d120a6707d3d2"
@@ -5087,6 +5148,17 @@ vuepress-plugin-sass-palette@2.0.0-beta.193:
     sass "^1.59.2"
     vuepress-shared "2.0.0-beta.193"
 
+vuepress-plugin-sass-palette@2.0.0-beta.197:
+  version "2.0.0-beta.197"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.197.tgz#e32ecbd043842f597fc52a6725ae5e3764aa8c98"
+  integrity sha512-xXA3fTD44W9pahejX79FQ0B9dIHbz5PzJ/8n7q0F4uep1/6j4BCKFDk1eyh+J9pBoTmZH+f9QxGxNZceGeOv2A==
+  dependencies:
+    "@vuepress/shared" "2.0.0-beta.61"
+    "@vuepress/utils" "2.0.0-beta.61"
+    chokidar "^3.5.3"
+    sass "^1.59.3"
+    vuepress-shared "2.0.0-beta.197"
+
 vuepress-plugin-seo2@2.0.0-beta.193:
   version "2.0.0-beta.193"
   resolved "https://registry.npmmirror.com/vuepress-plugin-seo2/-/vuepress-plugin-seo2-2.0.0-beta.193.tgz#e043ff927053f3093696753ca3f43e36cf8b6cbc"
@@ -5118,6 +5190,25 @@ vuepress-shared@2.0.0-beta.193:
     cheerio "1.0.0-rc.12"
     dayjs "^1.11.7"
     execa "^7.1.0"
+    fflate "^0.7.4"
+    gray-matter "^4.0.3"
+    semver "^7.3.8"
+    striptags "^3.2.0"
+    vue "^3.2.47"
+    vue-router "^4.1.6"
+
+vuepress-shared@2.0.0-beta.197:
+  version "2.0.0-beta.197"
+  resolved "https://registry.npmmirror.com/vuepress-shared/-/vuepress-shared-2.0.0-beta.197.tgz#70d1c3b1964ff981328adc84bbb27a56404e1bd6"
+  integrity sha512-eTs6AT9w0djzsxNPPXiWK6lHcsS5AVnwRdu90/YthGkpPY2pGarN9KrtGX7+qVr+G4HS8v4Qu43+X+iDInNBgg==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.61"
+    "@vuepress/shared" "2.0.0-beta.61"
+    "@vuepress/utils" "2.0.0-beta.61"
+    "@vueuse/core" "^9.13.0"
+    cheerio "1.0.0-rc.12"
+    dayjs "^1.11.7"
+    execa "^7.1.1"
     fflate "^0.7.4"
     gray-matter "^4.0.3"
     semver "^7.3.8"
