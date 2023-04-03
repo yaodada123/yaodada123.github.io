@@ -21,12 +21,12 @@ export const enNavbar = navbar([
         ],
       },
       {
-        text: "香蕉",
+        text: "工具使用",
         icon: "edit",
         prefix: "banana/",
         children: [
           {
-            text: "香蕉 1",
+            text: "IDEA下载教程",
             icon: "edit",
             link: "1",
           },
