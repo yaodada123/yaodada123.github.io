@@ -31,7 +31,7 @@ export const enNavbar = navbar([
             link: "1",
           },
           {
-            text: "香蕉 2",
+            text: "Java代码实现对称加密",
             icon: "edit",
             link: "2",
           },
