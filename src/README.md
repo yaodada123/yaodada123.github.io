@@ -47,7 +47,8 @@ head:
 #     desc: 自定义详细介绍
 #     link: https://你的自定义链接
 
-footer: 我们的人生就像漂流瓶，在茫茫人海漫无目的的漂流，寻找属于自己的归宿和彼岸。
+# footer: 我们的人生就像漂流瓶，在茫茫人海漫无目的的漂流，寻找属于自己的归宿和彼岸。
+footer: <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2022009496号-1</a>
 ---
 
 <!-- 这是一个博客主页的案例。
