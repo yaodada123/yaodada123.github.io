@@ -122,10 +122,10 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
-    comment: {
-      // @ts-expect-error: You should generate and use your own comment service
-      provider: "Giscus",
-    },
+    // comment: {
+    //   // @ts-expect-error: You should generate and use your own comment service
+    //   provider: "Giscus",
+    // },
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
@@ -169,9 +169,9 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
-    commentPlugin: {
-      // 插件选项
-    }
+    // commentPlugin: {
+    //   // 插件选项
+    // }
 
     // uncomment these if you want a PWA
     // pwa: {
