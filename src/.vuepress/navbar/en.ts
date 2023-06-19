@@ -41,6 +41,7 @@ export const enNavbar = navbar([
       },
       { text: "樱桃", icon: "edit", link: "cherry" },
       { text: "火龙果", icon: "edit", link: "dragonfruit" },
+      "maoGaiReview",
       "tomato",
       "strawberry",
     ],
