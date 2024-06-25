@@ -17,10 +17,8 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  favicon: 'https://pic.imgdb.cn/item/64151c29a682492fcca4b377.jpg',
-  // logo: "https://pcsdata.baidu.com/thumbnail/1c74a825ai694b9f6fb64df1cb53485b?fid=1099513442164-16051585-96682052082591&rt=pr&sign=FDTAER-yUdy3dSFZ0SVxtzShv1zcMqd-4p2Z20JVuN6yAjrbx43wpmoFTOs%3D&expires=2h&chkv=0&chkbd=0&chkpc=&dp-logid=576032081966666504&dp-callid=0&time=1678942800&bus_no=26&size=c1600_u1600&quality=100&vuk=-&ft=video",
-  // logo: "/new-logo.png",
-  logo: 'https://pic.imgdb.cn/item/64130c99ebf10e5d538a64b8.png',
+  favicon: 'https://files.superbed.cn/static/images/ea/a5/667a93b6d9c307b7e984eaa5.jpg',
+  logo: 'https://files.superbed.cn/static/images/ea/a5/667a93b6d9c307b7e984eaa5.jpg',
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
