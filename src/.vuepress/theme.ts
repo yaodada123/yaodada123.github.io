@@ -9,7 +9,7 @@ const MR_HOPE_AVATAR =
 
 export default hopeTheme({
   hostname: "https://www.yaohc.top",
-
+  darkmode: "toggle",
   // author: {
   //   name: "所谓独醉",
   //   url: "https://www.yaohc.top",
@@ -23,7 +23,7 @@ export default hopeTheme({
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "docs",
-
+  fullscreen: true,
   blog: {
     medias: {
       // Baidu: "https://example.com",
