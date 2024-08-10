@@ -9,18 +9,6 @@ export const enNavbar = navbar([
     prefix: "/posts/",
     children: [
       {
-        text: "苹果",
-        icon: "edit",
-        prefix: "apple/",
-        children: [
-          { text: "苹果1", icon: "edit", link: "1" },
-          { text: "苹果2", icon: "edit", link: "2" },
-          "3",
-          "4",
-          { text: "迫不及待", icon: "edit", link: "迫不及待" },
-        ],
-      },
-      {
         text: "工具使用",
         icon: "edit",
         prefix: "banana/",
@@ -35,15 +23,8 @@ export const enNavbar = navbar([
             icon: "edit",
             link: "2",
           },
-          "3",
-          "4",
         ],
       },
-      { text: "樱桃", icon: "edit", link: "cherry" },
-      { text: "火龙果", icon: "edit", link: "dragonfruit" },
-      "maoGaiReview",
-      "tomato",
-      "strawberry",
     ],
   },
   // {
